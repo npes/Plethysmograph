@@ -1,0 +1,159 @@
+
+**** 08/26/16 12:35:24 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-time"  [ C:\Users\N\Documents\GitHub\Plethysmograph\Orcad files\Plethysmograph amp\plethysmograph amp-pspice
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "time.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Cadence\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+.lib "C:\Cadence\Company\OrCAD_PSpice\Models\pspice_demokit.lib" 
+.lib "C:\Cadence\Company\OrCAD_PSpice\Models\sample_models.lib" 
+
+*Analysis directives: 
+.TRAN  0 2s 0 0.0005 SKIPBP 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PLETHYSMOGRAPH AMP
+V_V2         SENSOR 0  AC 1
++SIN 0 0.1 4 0 0 0
+V_V1         VCC 0 9Vdc
+X_U2         N04219 N06271 VCC/2 0 OUT LM293/5_1/TI
+R_R4         OUT VCC/2  10k TC=0,0 
+C_C1         0 OUT  15pF  TC=0,0 
+C_C2         0 VCC  100nF  TC=0,0 
+X_U3A         N03027 VCC/2 VCC 0 VCC/2 TL074/301/TI
+X_U3B         N03428 N03375 VCC 0 N03382 TL074/301/TI
+X_U3C         N04183 N04267 VCC 0 N04219 TL074/301/TI
+R_R5         N03027 VCC  100k TC=0,0 
+R_R6         0 N03027  100k TC=0,0 
+C_C3         SENSOR N03337  2.2uF  TC=0,0 
+R_R7         N03375 N03337  10k TC=0,0 
+R_R8         N03382 N03375  100k TC=0,0 
+R_R9         VCC/2 N03428  10k TC=0,0 
+R_R11         N04267 N04263  10k TC=0,0 
+C_C4         N042350 N04263  2.2uF  TC=0,0 
+R_R10         VCC/2 N04183  10k TC=0,0 
+R_R12         N04219 N04267  100k TC=0,0 
+C_C5         0 N03027  100nF  TC=0,0 
+R_R13         N03337 VCC/2  47k TC=0,0 
+R_R14         N04263 VCC/2  47k TC=0,0 
+X_R15         VCC/2 N042350 N03382 POT PARAMS: SET=0 VALUE=10K
+R_R16         N06271 N04219  1.6meg TC=0,0 
+C_C6         0 N06271  0.1uF  TC=0,0 
+
+**** RESUMING time.cir ****
+.END
+
+**** 08/26/16 12:35:24 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-time"  [ C:\Users\N\Documents\GitHub\Plethysmograph\Orcad files\Plethysmograph amp\plethysmograph amp-pspice
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.DX         X_U3A.DX        X_U3B.DX        X_U3C.DX        
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+
+
+**** 08/26/16 12:35:24 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-time"  [ C:\Users\N\Documents\GitHub\Plethysmograph\Orcad files\Plethysmograph amp\plethysmograph amp-pspice
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.QIN        X_U2.QMI        X_U2.QMO        X_U2.QOC        
+               PNP             NPN             NPN             NPN             
+       LEVEL    1               1               1               1            
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          BF    2.000000E+03    1.002000E+03    1.000000E+03   20.290000E+03 
+          NF    1               1               1               1            
+          BR    1               1               1               1            
+          NR    1               1               1               1            
+         ISS    0               0               0               0            
+          RE    0               0               0               0            
+          RC    0               0               0               0            
+         CJE    0               0               0               0            
+         VJE     .75             .75             .75             .75         
+         CJC    0               0               1.000000E-15    1.000000E-15 
+         VJC     .75             .75             .75             .75         
+         MJC     .33             .33             .33             .33         
+        XCJC    1               1               1               1            
+         CJS    0               0               0               0            
+         VJS     .75             .75             .75             .75         
+          TF                                                  942.600000E-12 
+          TR                                  807.400000E-09  543.800000E-09 
+          KF    0               0               0               0            
+          AF    1               1               1               1            
+          CN    2.2             2.42            2.42            2.42         
+           D     .52             .87             .87             .87         
+
+
+**** 08/26/16 12:35:24 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-time"  [ C:\Users\N\Documents\GitHub\Plethysmograph\Orcad files\Plethysmograph amp\plethysmograph amp-pspice
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U3A.JX        X_U3B.JX        X_U3C.JX        
+               PJF             PJF             PJF             
+         VTO   -1              -1              -1            
+        BETA  270.100000E-06  270.100000E-06  270.100000E-06 
+          IS   15.000000E-12   15.000000E-12   15.000000E-12 
+
+
+
+          JOB CONCLUDED
+
+**** 08/26/16 12:35:24 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-time"  [ C:\Users\N\Documents\GitHub\Plethysmograph\Orcad files\Plethysmograph amp\plethysmograph amp-pspice
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .61
+
