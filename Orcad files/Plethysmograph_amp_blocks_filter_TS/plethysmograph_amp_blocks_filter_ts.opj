@@ -32,6 +32,10 @@
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    (GAIN
+      (FullPartName "GAIN.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
       (LibraryName
@@ -45,10 +49,6 @@
     (0
       (LibraryName
          "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
-      (DeviceIndex "0"))
-    (GAIN
-      (FullPartName "GAIN.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
       (DeviceIndex "0"))
     (LOPASS
       (FullPartName "LOPASS.Normal")
@@ -66,7 +66,15 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Outputs"))
+      (Path "Design Resources"
+         "C:\Users\N\Documents\GitHub\Plethysmograph\Orcad files\Plethysmograph_amp_blocks_filter_TS\plethysmograph_amp_blocks_filter_ts.DSN")
+      (Path "Design Resources"
+         "C:\Users\N\Documents\GitHub\Plethysmograph\Orcad files\Plethysmograph_amp_blocks_filter_TS\plethysmograph_amp_blocks_filter_ts.DSN"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\Users\N\Documents\GitHub\Plethysmograph\Orcad files\Plethysmograph_amp_blocks_filter_TS\plethysmograph_amp_blocks_filter_ts.DSN"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -76,12 +84,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 104 1152 104 453")
-        (Scroll "0 0")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1100 52 401")
+        (Scroll "437 480")
         (Zoom "100")
         (Occurrence "/"))
       (Path
-         "C:\USERS\N\DOCUMENTS\ORCAD PROJECTS\PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TS\PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TS.DSN")
+         "C:\USERS\N\DOCUMENTS\GITHUB\PLETHYSMOGRAPH\ORCAD FILES\PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TS\PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TS.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
   (MPSSessionName "N"))
