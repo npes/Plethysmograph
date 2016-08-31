@@ -1,7 +1,13 @@
 
 **** 08/31/16 11:34:02 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
+<<<<<<< HEAD
  ** Profile: "SCHEMATIC1-time"  [ c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph amp\plethysmograph amp-pspice
+=======
+**** 08/30/16 05:35:56 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-time"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
+>>>>>>> 9860bce4698974ae78fe2df219225feae00d8be0
 
 
  ****     CIRCUIT DESCRIPTION
@@ -18,7 +24,7 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
-* From [PSPICE NETLIST] section of C:\Cadence\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+* From [PSPICE NETLIST] section of C:\Cadence\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
 .lib "nom.lib" 
 .lib "C:\Cadence\Company\OrCAD_PSpice\Models\pspice_demokit.lib" 
 .lib "C:\Cadence\Company\OrCAD_PSpice\Models\sample_models.lib" 
@@ -59,9 +65,15 @@ V_V2         SENSOR 0   PWL
 **** RESUMING time.cir ****
 .END
 
+<<<<<<< HEAD
 **** 08/31/16 11:34:02 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-time"  [ c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph amp\plethysmograph amp-pspice
+=======
+**** 08/30/16 05:35:56 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-time"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
+>>>>>>> 9860bce4698974ae78fe2df219225feae00d8be0
 
 
  ****     Diode MODEL PARAMETERS
@@ -76,9 +88,15 @@ V_V2         SENSOR 0   PWL
           IS  800.000000E-18  800.000000E-18  800.000000E-18 
 
 
+<<<<<<< HEAD
 **** 08/31/16 11:34:02 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-time"  [ c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph amp\plethysmograph amp-pspice
+=======
+**** 08/30/16 05:35:56 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-time"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
+>>>>>>> 9860bce4698974ae78fe2df219225feae00d8be0
 
 
  ****     BJT MODEL PARAMETERS
@@ -116,9 +134,15 @@ V_V2         SENSOR 0   PWL
            D     .52             .87             .87             .87         
 
 
+<<<<<<< HEAD
 **** 08/31/16 11:34:02 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-time"  [ c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph amp\plethysmograph amp-pspice
+=======
+**** 08/30/16 05:35:56 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-time"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
+>>>>>>> 9860bce4698974ae78fe2df219225feae00d8be0
 
 
  ****     Junction FET MODEL PARAMETERS
@@ -139,9 +163,15 @@ Reducing minimum delta to make the circuit converge.
 
           JOB ABORTED
 
+<<<<<<< HEAD
 **** 08/31/16 11:34:02 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-time"  [ c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph amp\plethysmograph amp-pspice
+=======
+**** 08/30/16 05:35:56 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-time"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
+>>>>>>> 9860bce4698974ae78fe2df219225feae00d8be0
 
 
  ****     JOB STATISTICS SUMMARY
@@ -151,5 +181,9 @@ Reducing minimum delta to make the circuit converge.
 
 
 
+<<<<<<< HEAD
   Total job time (using Solver 1)   =        8.91
+=======
+  Total job time (using Solver 1)   =        1.03
+>>>>>>> 9860bce4698974ae78fe2df219225feae00d8be0
 

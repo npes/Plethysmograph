@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ** Profile: "SCHEMATIC1-time"  [ c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph amp\plethysmograph amp-pspicefiles\schematic1\time.sim ] 
+=======
+** Profile: "SCHEMATIC1-time"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files\Plethysmograph amp\plethysmograph amp-pspicefiles\schematic1\time.sim ] 
+>>>>>>> 9860bce4698974ae78fe2df219225feae00d8be0
 
 ** Creating circuit file "time.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
@@ -6,7 +10,7 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
-* From [PSPICE NETLIST] section of C:\Cadence\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+* From [PSPICE NETLIST] section of C:\Cadence\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
 .lib "nom.lib" 
 .lib "C:\Cadence\Company\OrCAD_PSpice\Models\pspice_demokit.lib" 
 .lib "C:\Cadence\Company\OrCAD_PSpice\Models\sample_models.lib" 

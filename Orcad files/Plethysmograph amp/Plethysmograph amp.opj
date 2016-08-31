@@ -65,6 +65,7 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+<<<<<<< HEAD
       (Path "Design Resources"
          "c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph amp\plethysmograph amp.dsn")
       (Path "Design Resources"
@@ -74,10 +75,14 @@
       (Select "Design Resources"
          "c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph amp\plethysmograph amp.dsn"
          "SCHEMATIC1" "PAGE1"))
+=======
+      (Path "Outputs"))
+>>>>>>> 9860bce4698974ae78fe2df219225feae00d8be0
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
+<<<<<<< HEAD
         (Placement "44 2 3 -1 -1 -8 -31 0 200 0 310"))
       (Tab 0))
     (Doc
@@ -94,3 +99,8 @@
   (MPSSessionName "N")
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\SPB_17.2\tools\capture\library\pspice"))
+=======
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 310"))
+      (Tab 0)))
+  (MPSSessionName "Thomas"))
+>>>>>>> 9860bce4698974ae78fe2df219225feae00d8be0
