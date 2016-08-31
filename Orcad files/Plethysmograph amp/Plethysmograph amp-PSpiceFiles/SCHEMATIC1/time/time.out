@@ -1,7 +1,7 @@
 
-**** 08/26/16 12:35:24 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 08/30/16 05:35:56 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-time"  [ C:\Users\N\Documents\GitHub\Plethysmograph\Orcad files\Plethysmograph amp\plethysmograph amp-pspice
+ ** Profile: "SCHEMATIC1-time"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
 
 
  ****     CIRCUIT DESCRIPTION
@@ -18,7 +18,7 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
-* From [PSPICE NETLIST] section of C:\Cadence\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+* From [PSPICE NETLIST] section of C:\Cadence\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
 .lib "nom.lib" 
 .lib "C:\Cadence\Company\OrCAD_PSpice\Models\pspice_demokit.lib" 
 .lib "C:\Cadence\Company\OrCAD_PSpice\Models\sample_models.lib" 
@@ -63,9 +63,9 @@ C_C6         0 N06271  0.1uF  TC=0,0
 **** RESUMING time.cir ****
 .END
 
-**** 08/26/16 12:35:24 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 08/30/16 05:35:56 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-time"  [ C:\Users\N\Documents\GitHub\Plethysmograph\Orcad files\Plethysmograph amp\plethysmograph amp-pspice
+ ** Profile: "SCHEMATIC1-time"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
 
 
  ****     Diode MODEL PARAMETERS
@@ -80,9 +80,9 @@ C_C6         0 N06271  0.1uF  TC=0,0
           IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
 
 
-**** 08/26/16 12:35:24 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 08/30/16 05:35:56 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-time"  [ C:\Users\N\Documents\GitHub\Plethysmograph\Orcad files\Plethysmograph amp\plethysmograph amp-pspice
+ ** Profile: "SCHEMATIC1-time"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
 
 
  ****     BJT MODEL PARAMETERS
@@ -120,9 +120,9 @@ C_C6         0 N06271  0.1uF  TC=0,0
            D     .52             .87             .87             .87         
 
 
-**** 08/26/16 12:35:24 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 08/30/16 05:35:56 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-time"  [ C:\Users\N\Documents\GitHub\Plethysmograph\Orcad files\Plethysmograph amp\plethysmograph amp-pspice
+ ** Profile: "SCHEMATIC1-time"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
 
 
  ****     Junction FET MODEL PARAMETERS
@@ -143,9 +143,9 @@ C_C6         0 N06271  0.1uF  TC=0,0
 
           JOB CONCLUDED
 
-**** 08/26/16 12:35:24 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 08/30/16 05:35:56 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-time"  [ C:\Users\N\Documents\GitHub\Plethysmograph\Orcad files\Plethysmograph amp\plethysmograph amp-pspice
+ ** Profile: "SCHEMATIC1-time"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
 
 
  ****     JOB STATISTICS SUMMARY
@@ -155,5 +155,5 @@ C_C6         0 N06271  0.1uF  TC=0,0
 
 
 
-  Total job time (using Solver 1)   =         .61
+  Total job time (using Solver 1)   =        1.03
 
