@@ -1,5 +1,5 @@
 
-**** 08/31/16 12:27:21 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+**** 08/31/16 21:37:42 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-freq"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
 
@@ -50,25 +50,41 @@ R_R4         N28269 N28319 R_R4 910 TC=0,0
 .model        R_R4 RES R=1 DEV=5% TC1=0 TC2=0
 V_V4         N27788 0  AC 1
 +SIN 0 1 100 0 0 0
-C_C3         N28269 N278921 C_C3 50u  TC=0,0 
-.model        C_C3 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
-R_R3         N278921 N27788 R_R3 6.37k TC=0,0 
+R_R3         N30842 N32220 R_R3 6.37k TC=0,0 
 .model        R_R3 RES R=1 DEV=5% TC1=0 TC2=0
 C_C4         N28319 N28269 C_C4 50u  TC=0,0 
 .model        C_C4 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
-X_U1B         0 N28269 V+ V- N28319 LM324
-V_V5         N29763 0  AC 1
-+SIN 0 1 100 0 0 0
-R_R5         0 N29929 R_R5 330 TC=0,0 
+X_U1B         N32725 N28269 V+ 0 N28319 LM324
+R_R5         N30842 N28269 R_R5 800 TC=0,0 
 .model        R_R5 RES R=1 DEV=5% TC1=0 TC2=0
-C_C5         N29763 N29929 C_C5 0.001  TC=0,0 
+C_C5         0 N30842 C_C5 50n  TC=0,0 
 .model        C_C5 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
-X_U1C         N29929 N30254 V+ V- N30254 LM324
+R_R8         N31746 N31672 R_R8 800 TC=0,0 
+.model        R_R8 RES R=1 DEV=5% TC1=0 TC2=0
+X_U2B         N32795 N31672 V+ V- N31676 LM324
+R_R6         N31746 N28319 R_R6 6.37k TC=0,0 
+.model        R_R6 RES R=1 DEV=5% TC1=0 TC2=0
+C_C7         0 N31746 C_C7 50n  TC=0,0 
+.model        C_C7 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+R_R7         N31672 N31676 R_R7 910 TC=0,0 
+.model        R_R7 RES R=1 DEV=5% TC1=0 TC2=0
+C_C6         N31676 N31672 C_C6 50u  TC=0,0 
+.model        C_C6 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+C_C8         N27788 N32230 C_C8 0.001  TC=0,0 
+.model        C_C8 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+X_U2C         N32230 N32220 V+ 0 N32220 LM324
+R_R9         0 N32230 R_R9 330 TC=0,0 
+.model        R_R9 RES R=1 DEV=5% TC1=0 TC2=0
+V_V5         +5 0 5
+R_R10         N32725 +5 R_R10 1k TC=0,0 
+.model        R_R10 RES R=1 DEV=5% TC1=0 TC2=0
+R_R11         N32795 +5 R_R11 1k TC=0,0 
+.model        R_R11 RES R=1 DEV=5% TC1=0 TC2=0
 
 **** RESUMING freq.cir ****
 .END
 
-**** 08/31/16 12:27:21 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+**** 08/31/16 21:37:42 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-freq"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
 
@@ -87,13 +103,13 @@ X_U1C         N29929 N30254 V+ V- N30254 LM324
          CJO                   10.000000E-12                   10.000000E-12 
 
 
-               X_U1C.dx        X_U1C.dy        
-          IS  800.000000E-18  800.000000E-18 
-          RS    1               1.000000E-03 
-         CJO                   10.000000E-12 
+               X_U2B.dx        X_U2B.dy        X_U2C.dx        X_U2C.dy        
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03    1               1.000000E-03 
+         CJO                   10.000000E-12                   10.000000E-12 
 
 
-**** 08/31/16 12:27:21 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+**** 08/31/16 21:37:42 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-freq"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
 
@@ -106,32 +122,32 @@ X_U1C         N29929 N30254 V+ V- N30254 LM324
 
 
 
-               X_U1A.qx        X_U1B.qx        X_U1C.qx        
-               PNP             PNP             PNP             
-       LEVEL    1               1               1            
-          IS  800.000000E-18  800.000000E-18  800.000000E-18 
-          BF  166.7           166.7           166.7          
-          NF    1               1               1            
-          BR    1               1               1            
-          NR    1               1               1            
-         ISS    0               0               0            
-          RE    0               0               0            
-          RC    0               0               0            
-         CJE    0               0               0            
-         VJE     .75             .75             .75         
-         CJC    0               0               0            
-         VJC     .75             .75             .75         
-         MJC     .33             .33             .33         
-        XCJC    1               1               1            
-         CJS    0               0               0            
-         VJS     .75             .75             .75         
-          KF    0               0               0            
-          AF    1               1               1            
-          CN    2.2             2.2             2.2          
-           D     .52             .52             .52         
+               X_U1A.qx        X_U1B.qx        X_U2B.qx        X_U2C.qx        
+               PNP             PNP             PNP             PNP             
+       LEVEL    1               1               1               1            
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          BF  166.7           166.7           166.7           166.7          
+          NF    1               1               1               1            
+          BR    1               1               1               1            
+          NR    1               1               1               1            
+         ISS    0               0               0               0            
+          RE    0               0               0               0            
+          RC    0               0               0               0            
+         CJE    0               0               0               0            
+         VJE     .75             .75             .75             .75         
+         CJC    0               0               0               0            
+         VJC     .75             .75             .75             .75         
+         MJC     .33             .33             .33             .33         
+        XCJC    1               1               1               1            
+         CJS    0               0               0               0            
+         VJS     .75             .75             .75             .75         
+          KF    0               0               0               0            
+          AF    1               1               1               1            
+          CN    2.2             2.2             2.2             2.2          
+           D     .52             .52             .52             .52         
 
 
-**** 08/31/16 12:27:21 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+**** 08/31/16 21:37:42 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-freq"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
 
@@ -148,11 +164,15 @@ X_U1C         N29929 N30254 V+ V- N30254 LM324
            R    1               1               1               1            
 
 
-               R_R5            
-           R    1            
+               R_R5            R_R8            R_R6            R_R7            
+           R    1               1               1               1            
+
+
+               R_R9            R_R10           R_R11           
+           R    1               1               1            
 
 
-**** 08/31/16 12:27:21 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+**** 08/31/16 21:37:42 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-freq"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
 
@@ -165,15 +185,15 @@ X_U1C         N29929 N30254 V+ V- N30254 LM324
 
 
 
-               C_C1            C_C2            C_C3            C_C4            
+               C_C1            C_C2            C_C4            C_C5            
            C    1               1               1               1            
 
 
-               C_C5            
-           C    1            
+               C_C7            C_C6            C_C8            
+           C    1               1               1            
 
 
-**** 08/31/16 12:27:21 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+**** 08/31/16 21:37:42 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-freq"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
 
@@ -200,14 +220,21 @@ X_U1C         N29929 N30254 V+ V- N30254 LM324
         IOFF   -1.000000E-06    0               0              -1.000000E-06 
 
 
-               X_U1C.sw2       X_U1C.sw1       X_U1C.sw3       X_U1C.sw4       
+               X_U2B.sw2       X_U2B.sw1       X_U2B.sw3       X_U2B.sw4       
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+               X_U2C.sw2       X_U2C.sw1       X_U2C.sw3       X_U2C.sw4       
          RON    1               1               1               1            
         ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
          ION    0              -1.000000E-06   -1.000000E-06    0            
         IOFF   -1.000000E-06    0               0              -1.000000E-06 
 
 
-**** 08/31/16 12:27:21 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+**** 08/31/16 21:37:42 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-freq"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
 
@@ -222,31 +249,39 @@ X_U1C         N29929 N30254 V+ V- N30254 LM324
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(   V+)    9.0000  (   V-)   -9.0000  (N25953)    0.0000 (N27011) 14.76E-06     
+(   +5)    5.0000  (   V+)    9.0000  (   V-)   -9.0000  (N25953)    0.0000     
 
-(N27015)-177.7E-06 (N27232)-177.7E-06 (N27788)    0.0000 (N28269)-192.5E-06     
+(N27011) 14.76E-06 (N27015)-177.7E-06 (N27232)-177.7E-06 (N27788)    0.0000     
 
-(N28319)-233.4E-06 (N29763)    0.0000 (N29929) 14.76E-06 (N30254)-177.7E-06     
+(N28269)    4.9997 (N28319)    5.6329 (N30842)    4.4429 (N31672)    4.9982     
 
-(N278921)    0.0000                   (X_U1A.6) 33.89E-09                       
+(N31676)    4.9176 (N31746)    5.0690 (N32220)     .0099 (N32230) 16.99E-06     
+
+(N32725)    5.0000 (N32795)    5.0000 (X_U1A.6) 33.88E-09                       
 
 (X_U1A.7)-180.0E-06                   (X_U1A.8)-180.0E-06                       
 
 (X_U1A.9)    0.0000                   (X_U1A.a)    9.0000                       
 
-(X_U1A.b)-1.038E-06                   (X_U1B.6) 44.38E-09                       
+(X_U1A.b)-1.038E-06                   (X_U1B.6)-224.8E-06                       
 
-(X_U1B.7)-235.7E-06                   (X_U1B.8)-235.7E-06                       
+(X_U1B.7)    5.6722                   (X_U1B.8)    5.6722                       
 
-(X_U1B.9)    0.0000                   (X_U1B.a)    9.0000                       
+(X_U1B.9)    0.0000                   (X_U1B.a)    8.9992                       
 
-(X_U1B.b)-1.038E-06                   (X_U1C.6) 33.89E-09                       
+(X_U1B.b)-784.4E-06                   (X_U2B.6)-925.7E-06                       
 
-(X_U1C.7)-180.0E-06                   (X_U1C.8)-180.0E-06                       
+(X_U2B.7)    4.9132                   (X_U2B.8)    4.9132                       
 
-(X_U1C.9)    0.0000                   (X_U1C.a)    9.0000                       
+(X_U2B.9)    0.0000                   (X_U2B.a) 89.47E-06                       
 
-(X_U1C.b)-1.038E-06                   (X_U1A.10)     .6076                      
+(X_U2B.b)   -8.9999                   (X_U2C.6)     .1644                       
+
+(X_U2C.7)   -1.7552                   (X_U2C.8)   -1.7552                       
+
+(X_U2C.9)    0.0000                   (X_U2C.a)     .0353                       
+
+(X_U2C.b)     .0353                   (X_U1A.10)     .6076                      
 
 (X_U1A.11)   -8.9602                  (X_U1A.12)   -8.9604                      
 
@@ -258,27 +293,39 @@ X_U1C         N29929 N30254 V+ V- N30254 LM324
 
 (X_U1A.92)  -40.0000                  (X_U1A.99)    0.0000                      
 
-(X_U1B.10)     .6076                  (X_U1B.11)   -8.9602                      
+(X_U1B.10)    5.6074                  (X_U1B.11)     .0397                      
 
-(X_U1B.12)   -8.9604                  (X_U1B.13)     .5937                      
+(X_U1B.12)     .0394                  (X_U1B.13)    5.5935                      
 
-(X_U1B.14)     .5937                  (X_U1B.53)    7.5000                      
+(X_U1B.14)    5.5937                  (X_U1B.53)    7.5000                      
 
-(X_U1B.54)   -8.1780                  (X_U1B.90)-44.95E-06                      
+(X_U1B.54)     .8220                  (X_U1B.90)     .7844                      
 
 (X_U1B.91)   40.0000                  (X_U1B.92)  -40.0000                      
 
-(X_U1B.99)    0.0000                  (X_U1C.10)     .6076                      
+(X_U1B.99)    4.5000                  (X_U2B.10)    5.6058                      
 
-(X_U1C.11)   -8.9602                  (X_U1C.12)   -8.9604                      
+(X_U2B.11)   -8.9604                  (X_U2B.12)   -8.9622                      
 
-(X_U1C.13)     .5937                  (X_U1C.14)     .5937                      
+(X_U2B.13)    5.5919                  (X_U2B.14)    5.5926                      
 
-(X_U1C.53)    7.5000                  (X_U1C.54)   -8.1780                      
+(X_U2B.53)    7.5000                  (X_U2B.54)   -8.1780                      
 
-(X_U1C.90)-44.95E-06                  (X_U1C.91)   40.0000                      
+(X_U2B.90)    -.0886                  (X_U2B.91)   40.0000                      
 
-(X_U1C.92)  -40.0000                  (X_U1C.99)    0.0000                  
+(X_U2B.92)  -40.0000                  (X_U2B.99)    0.0000                      
+
+(X_U2C.10)     .6133                  (X_U2C.11)     .0356                      
+
+(X_U2C.12)     .0455                  (X_U2C.13)     .6009                      
+
+(X_U2C.14)     .5974                  (X_U2C.53)    7.5000                      
+
+(X_U2C.54)     .8220                  (X_U2C.90)  -35.3010                      
+
+(X_U2C.91)   40.0000                  (X_U2C.92)  -40.0000                      
+
+(X_U2C.99)    4.5000                  
 
 
 
@@ -287,36 +334,42 @@ X_U1C         N29929 N30254 V+ V- N30254 LM324
     NAME         CURRENT
 
     V_V3         0.000E+00
-    V_V2         5.994E-03
-    V_V1        -5.994E-03
+    V_V2         4.084E-03
+    V_V1        -6.794E-03
     V_V4         0.000E+00
-    V_V5         0.000E+00
-    X_U1A.vb     3.389E-13
+    V_V5         8.722E-08
+    X_U1A.vb     3.388E-13
     X_U1A.vc     7.501E-12
-    X_U1A.ve     8.299E-12
+    X_U1A.ve     9.095E-12
     X_U1A.vlim  -4.495E-08
     X_U1A.vlp   -4.000E-11
     X_U1A.vln   -4.000E-11
-    X_U1B.vb     4.438E-13
-    X_U1B.vc     7.501E-12
-    X_U1B.ve     8.299E-12
-    X_U1B.vlim  -4.495E-08
-    X_U1B.vlp   -4.000E-11
-    X_U1B.vln   -4.000E-11
-    X_U1C.vb     3.389E-13
-    X_U1C.vc     7.501E-12
-    X_U1C.ve     8.299E-12
-    X_U1C.vlim  -4.495E-08
-    X_U1C.vlp   -4.000E-11
-    X_U1C.vln   -4.000E-11
+    X_U1B.vb    -2.248E-09
+    X_U1B.vc     1.868E-12
+    X_U1B.ve     4.723E-12
+    X_U1B.vlim   7.844E-04
+    X_U1B.vlp   -3.922E-11
+    X_U1B.vln   -4.079E-11
+    X_U2B.vb    -9.257E-09
+    X_U2B.vc     2.583E-12
+    X_U2B.ve     1.401E-11
+    X_U2B.vlim  -8.857E-05
+    X_U2B.vlp   -4.009E-11
+    X_U2B.vln   -3.992E-11
+    X_U2C.vb     1.644E-06
+    X_U2C.vc     7.491E-12
+    X_U2C.ve    -3.461E-02
+    X_U2C.vlim  -3.530E-02
+    X_U2C.vlp   -7.530E-11
+    X_U2C.vln   -4.702E-12
 
-    TOTAL POWER DISSIPATION   1.08E-01  WATTS
+    TOTAL POWER DISSIPATION   1.26E-01  WATTS
 
 
 
           JOB CONCLUDED
 
-**** 08/31/16 12:27:21 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+**** 08/31/16 21:37:42 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-freq"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
 
@@ -328,5 +381,5 @@ X_U1C         N29929 N30254 V+ V- N30254 LM324
 
 
 
-  Total job time (using Solver 1)   =        2.22
+  Total job time (using Solver 1)   =        3.25
 

@@ -1,7 +1,7 @@
+
+**** 08/31/16 21:53:52 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
 
-**** 08/31/16 12:42:14 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
-
- ** Profile: "SCHEMATIC1-time"  [ C:\USERS\N\DOCUMENTS\ORCAD PROJECTS\test\Plethysmograph_amp_blocks-PSpiceFiles\SCHEMATIC1\time.sim 
+ ** Profile: "SCHEMATIC1-time"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
 
 
  ****     CIRCUIT DESCRIPTION
@@ -18,7 +18,7 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
-* From [PSPICE NETLIST] section of C:\Cadence\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+* From [PSPICE NETLIST] section of C:\Cadence\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
 .lib "nom.lib" 
 .lib "C:\Cadence\Company\OrCAD_PSpice\Models\pspice_demokit.lib" 
 .lib "C:\Cadence\Company\OrCAD_PSpice\Models\sample_models.lib" 
@@ -32,22 +32,54 @@
 
 
 **** INCLUDING SCHEMATIC1.net ****
-* source PLETHYSMOGRAPH_AMP_BLOCKS
+* source PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TS
 V_V1         N06746 0   PWL   
 + REPEAT FOREVER  
 + FILE "C:\Users\N\Documents\GitHub\Plethysmograph\TEK0003formatted_crop.csv" 
-+ ENDREPEAT
-E_HIPASS1         N06750 0 CHEBYSHEV {V(N06746)} HP (.005Hz .5Hz) 1dB 50dB
-E_LOPASS1         N06754 0 CHEBYSHEV {V(N06750)} LP (4.5Hz 50Hz) 1dB 50dB
-E_GAIN1         N06562 0 VALUE {1E2 * V(N06754)}
-R_R4         OUT VCC/2  1k TC=0,0 
-C_C1         0 OUT  15pF  TC=0,0 
-R_R16         N06610 N06562  1.6meg TC=0,0 
-C_C6         0 N06610  0.1uF  TC=0,0 
-X_U2         N06562 N06610 VCC 0 OUT LM293/5_1/TI
 
-**** RESUMING time.cir ****
-.END
+ERROR(ORPSIM-15347): Cannot open input file C:\Users\N\Documents\GitHub\Plethysmograph\TEK0003formatted_crop.csv.
 
-ERROR(ORPSIM-15141): Less than 2 connections at node VCC/2.
+
+ABORTING SIMULATION
+**** 08/31/16 21:53:52 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-time"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+Node counts:
+  Top level (NUNODS)                =           1
+  External (NCNODS)                 =           2
+  Total (NUMNOD)                    =           0
+
+Total device count (NUMEL)          =           1
+  Voltage Sources (V)               =           1
+
+Number of subcircuits (X)           =           0
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =           0
+  No. rejected time points (NUMRTP) =           0
+  No. iterations (NUMNIT)           =           0
+
+Load Threads                        =           1
+
+Runtime statistics:                       Seconds      Iterations
+  Readin                            =        0.00
+  General setup                     =        0.00
+  CMI setup                     =        0.00
+  Setup                             =        0.00
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =         .06
+  Total job time                    =        0.00
 

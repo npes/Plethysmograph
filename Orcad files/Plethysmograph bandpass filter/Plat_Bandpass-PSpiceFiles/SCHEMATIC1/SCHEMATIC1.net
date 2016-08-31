@@ -16,17 +16,33 @@ R_R4         N28269 N28319 R_R4 910 TC=0,0
 .model        R_R4 RES R=1 DEV=5% TC1=0 TC2=0
 V_V4         N27788 0  AC 1
 +SIN 0 1 100 0 0 0
-C_C3         N28269 N278921 C_C3 50u  TC=0,0 
-.model        C_C3 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
-R_R3         N278921 N27788 R_R3 6.37k TC=0,0 
+R_R3         N30842 N32220 R_R3 6.37k TC=0,0 
 .model        R_R3 RES R=1 DEV=5% TC1=0 TC2=0
 C_C4         N28319 N28269 C_C4 50u  TC=0,0 
 .model        C_C4 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
-X_U1B         0 N28269 V+ V- N28319 LM324
-V_V5         N29763 0  AC 1
-+SIN 0 1 100 0 0 0
-R_R5         0 N29929 R_R5 330 TC=0,0 
+X_U1B         N32725 N28269 V+ 0 N28319 LM324
+R_R5         N30842 N28269 R_R5 800 TC=0,0 
 .model        R_R5 RES R=1 DEV=5% TC1=0 TC2=0
-C_C5         N29763 N29929 C_C5 0.001  TC=0,0 
+C_C5         0 N30842 C_C5 50n  TC=0,0 
 .model        C_C5 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
-X_U1C         N29929 N30254 V+ V- N30254 LM324
+R_R8         N31746 N31672 R_R8 800 TC=0,0 
+.model        R_R8 RES R=1 DEV=5% TC1=0 TC2=0
+X_U2B         N32795 N31672 V+ V- N31676 LM324
+R_R6         N31746 N28319 R_R6 6.37k TC=0,0 
+.model        R_R6 RES R=1 DEV=5% TC1=0 TC2=0
+C_C7         0 N31746 C_C7 50n  TC=0,0 
+.model        C_C7 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+R_R7         N31672 N31676 R_R7 910 TC=0,0 
+.model        R_R7 RES R=1 DEV=5% TC1=0 TC2=0
+C_C6         N31676 N31672 C_C6 50u  TC=0,0 
+.model        C_C6 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+C_C8         N27788 N32230 C_C8 0.001  TC=0,0 
+.model        C_C8 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+X_U2C         N32230 N32220 V+ 0 N32220 LM324
+R_R9         0 N32230 R_R9 330 TC=0,0 
+.model        R_R9 RES R=1 DEV=5% TC1=0 TC2=0
+V_V5         +5 0 5
+R_R10         N32725 +5 R_R10 1k TC=0,0 
+.model        R_R10 RES R=1 DEV=5% TC1=0 TC2=0
+R_R11         N32795 +5 R_R11 1k TC=0,0 
+.model        R_R11 RES R=1 DEV=5% TC1=0 TC2=0
