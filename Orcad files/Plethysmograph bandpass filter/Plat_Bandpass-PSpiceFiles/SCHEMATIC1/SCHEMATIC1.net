@@ -1,0 +1,32 @@
+* source PLAT_BANDPASS
+V_V3         N25953 0  AC 1
++SIN 0 1 2 0 0 0
+V_V2         V- 0 -9
+X_U1A         N27011 N27015 V+ V- N27015 LM324
+V_V1         V+ 0 9
+C_C1         N25953 N27011 C_C1 0.001  TC=0,0 
+.model        C_C1 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+R_R1         0 N27011 R_R1 330 TC=0,0 
+.model        R_R1 RES R=1 DEV=5% TC1=0 TC2=0
+R_R2         N27015 N27232 R_R2 470 TC=0,0 
+.model        R_R2 RES R=1 DEV=5% TC1=0 TC2=0
+C_C2         0 N27232 C_C2 100u  TC=0,0 
+.model        C_C2 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+R_R4         N28269 N28319 R_R4 910 TC=0,0 
+.model        R_R4 RES R=1 DEV=5% TC1=0 TC2=0
+V_V4         N27788 0  AC 1
++SIN 0 1 100 0 0 0
+C_C3         N28269 N278921 C_C3 50u  TC=0,0 
+.model        C_C3 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+R_R3         N278921 N27788 R_R3 6.37k TC=0,0 
+.model        R_R3 RES R=1 DEV=5% TC1=0 TC2=0
+C_C4         N28319 N28269 C_C4 50u  TC=0,0 
+.model        C_C4 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+X_U1B         0 N28269 V+ V- N28319 LM324
+V_V5         N29763 0  AC 1
++SIN 0 1 100 0 0 0
+R_R5         0 N29929 R_R5 330 TC=0,0 
+.model        R_R5 RES R=1 DEV=5% TC1=0 TC2=0
+C_C5         N29763 N29929 C_C5 0.001  TC=0,0 
+.model        C_C5 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+X_U1C         N29929 N30254 V+ V- N30254 LM324
