@@ -1,0 +1,332 @@
+
+**** 08/31/16 12:27:21 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-freq"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "freq.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Cadence\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+.lib "C:\Cadence\Company\OrCAD_PSpice\Models\pspice_demokit.lib" 
+.lib "C:\Cadence\Company\OrCAD_PSpice\Models\sample_models.lib" 
+
+*Analysis directives: 
+.AC DEC 10000 0.1 150
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PLAT_BANDPASS
+V_V3         N25953 0  AC 1
++SIN 0 1 2 0 0 0
+V_V2         V- 0 -9
+X_U1A         N27011 N27015 V+ V- N27015 LM324
+V_V1         V+ 0 9
+C_C1         N25953 N27011 C_C1 0.001  TC=0,0 
+.model        C_C1 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+R_R1         0 N27011 R_R1 330 TC=0,0 
+.model        R_R1 RES R=1 DEV=5% TC1=0 TC2=0
+R_R2         N27015 N27232 R_R2 470 TC=0,0 
+.model        R_R2 RES R=1 DEV=5% TC1=0 TC2=0
+C_C2         0 N27232 C_C2 100u  TC=0,0 
+.model        C_C2 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+R_R4         N28269 N28319 R_R4 910 TC=0,0 
+.model        R_R4 RES R=1 DEV=5% TC1=0 TC2=0
+V_V4         N27788 0  AC 1
++SIN 0 1 100 0 0 0
+C_C3         N28269 N278921 C_C3 50u  TC=0,0 
+.model        C_C3 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+R_R3         N278921 N27788 R_R3 6.37k TC=0,0 
+.model        R_R3 RES R=1 DEV=5% TC1=0 TC2=0
+C_C4         N28319 N28269 C_C4 50u  TC=0,0 
+.model        C_C4 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+X_U1B         0 N28269 V+ V- N28319 LM324
+V_V5         N29763 0  AC 1
++SIN 0 1 100 0 0 0
+R_R5         0 N29929 R_R5 330 TC=0,0 
+.model        R_R5 RES R=1 DEV=5% TC1=0 TC2=0
+C_C5         N29763 N29929 C_C5 0.001  TC=0,0 
+.model        C_C5 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+X_U1C         N29929 N30254 V+ V- N30254 LM324
+
+**** RESUMING freq.cir ****
+.END
+
+**** 08/31/16 12:27:21 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-freq"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1A.dx        X_U1A.dy        X_U1B.dx        X_U1B.dy        
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03    1               1.000000E-03 
+         CJO                   10.000000E-12                   10.000000E-12 
+
+
+               X_U1C.dx        X_U1C.dy        
+          IS  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03 
+         CJO                   10.000000E-12 
+
+
+**** 08/31/16 12:27:21 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-freq"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1A.qx        X_U1B.qx        X_U1C.qx        
+               PNP             PNP             PNP             
+       LEVEL    1               1               1            
+          IS  800.000000E-18  800.000000E-18  800.000000E-18 
+          BF  166.7           166.7           166.7          
+          NF    1               1               1            
+          BR    1               1               1            
+          NR    1               1               1            
+         ISS    0               0               0            
+          RE    0               0               0            
+          RC    0               0               0            
+         CJE    0               0               0            
+         VJE     .75             .75             .75         
+         CJC    0               0               0            
+         VJC     .75             .75             .75         
+         MJC     .33             .33             .33         
+        XCJC    1               1               1            
+         CJS    0               0               0            
+         VJS     .75             .75             .75         
+          KF    0               0               0            
+          AF    1               1               1            
+          CN    2.2             2.2             2.2          
+           D     .52             .52             .52         
+
+
+**** 08/31/16 12:27:21 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-freq"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               R_R1            R_R2            R_R4            R_R3            
+           R    1               1               1               1            
+
+
+               R_R5            
+           R    1            
+
+
+**** 08/31/16 12:27:21 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-freq"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
+
+
+ ****     Capacitor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               C_C1            C_C2            C_C3            C_C4            
+           C    1               1               1               1            
+
+
+               C_C5            
+           C    1            
+
+
+**** 08/31/16 12:27:21 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-freq"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
+
+
+ ****     Current Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1A.sw2       X_U1A.sw1       X_U1A.sw3       X_U1A.sw4       
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+               X_U1B.sw2       X_U1B.sw1       X_U1B.sw3       X_U1B.sw4       
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+               X_U1C.sw2       X_U1C.sw1       X_U1C.sw3       X_U1C.sw4       
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+**** 08/31/16 12:27:21 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-freq"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   V+)    9.0000  (   V-)   -9.0000  (N25953)    0.0000 (N27011) 14.76E-06     
+
+(N27015)-177.7E-06 (N27232)-177.7E-06 (N27788)    0.0000 (N28269)-192.5E-06     
+
+(N28319)-233.4E-06 (N29763)    0.0000 (N29929) 14.76E-06 (N30254)-177.7E-06     
+
+(N278921)    0.0000                   (X_U1A.6) 33.89E-09                       
+
+(X_U1A.7)-180.0E-06                   (X_U1A.8)-180.0E-06                       
+
+(X_U1A.9)    0.0000                   (X_U1A.a)    9.0000                       
+
+(X_U1A.b)-1.038E-06                   (X_U1B.6) 44.38E-09                       
+
+(X_U1B.7)-235.7E-06                   (X_U1B.8)-235.7E-06                       
+
+(X_U1B.9)    0.0000                   (X_U1B.a)    9.0000                       
+
+(X_U1B.b)-1.038E-06                   (X_U1C.6) 33.89E-09                       
+
+(X_U1C.7)-180.0E-06                   (X_U1C.8)-180.0E-06                       
+
+(X_U1C.9)    0.0000                   (X_U1C.a)    9.0000                       
+
+(X_U1C.b)-1.038E-06                   (X_U1A.10)     .6076                      
+
+(X_U1A.11)   -8.9602                  (X_U1A.12)   -8.9604                      
+
+(X_U1A.13)     .5937                  (X_U1A.14)     .5937                      
+
+(X_U1A.53)    7.5000                  (X_U1A.54)   -8.1780                      
+
+(X_U1A.90)-44.95E-06                  (X_U1A.91)   40.0000                      
+
+(X_U1A.92)  -40.0000                  (X_U1A.99)    0.0000                      
+
+(X_U1B.10)     .6076                  (X_U1B.11)   -8.9602                      
+
+(X_U1B.12)   -8.9604                  (X_U1B.13)     .5937                      
+
+(X_U1B.14)     .5937                  (X_U1B.53)    7.5000                      
+
+(X_U1B.54)   -8.1780                  (X_U1B.90)-44.95E-06                      
+
+(X_U1B.91)   40.0000                  (X_U1B.92)  -40.0000                      
+
+(X_U1B.99)    0.0000                  (X_U1C.10)     .6076                      
+
+(X_U1C.11)   -8.9602                  (X_U1C.12)   -8.9604                      
+
+(X_U1C.13)     .5937                  (X_U1C.14)     .5937                      
+
+(X_U1C.53)    7.5000                  (X_U1C.54)   -8.1780                      
+
+(X_U1C.90)-44.95E-06                  (X_U1C.91)   40.0000                      
+
+(X_U1C.92)  -40.0000                  (X_U1C.99)    0.0000                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V3         0.000E+00
+    V_V2         5.994E-03
+    V_V1        -5.994E-03
+    V_V4         0.000E+00
+    V_V5         0.000E+00
+    X_U1A.vb     3.389E-13
+    X_U1A.vc     7.501E-12
+    X_U1A.ve     8.299E-12
+    X_U1A.vlim  -4.495E-08
+    X_U1A.vlp   -4.000E-11
+    X_U1A.vln   -4.000E-11
+    X_U1B.vb     4.438E-13
+    X_U1B.vc     7.501E-12
+    X_U1B.ve     8.299E-12
+    X_U1B.vlim  -4.495E-08
+    X_U1B.vlp   -4.000E-11
+    X_U1B.vln   -4.000E-11
+    X_U1C.vb     3.389E-13
+    X_U1C.vc     7.501E-12
+    X_U1C.ve     8.299E-12
+    X_U1C.vlim  -4.495E-08
+    X_U1C.vlp   -4.000E-11
+    X_U1C.vln   -4.000E-11
+
+    TOTAL POWER DISSIPATION   1.08E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 08/31/16 12:27:21 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-freq"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        2.22
+
