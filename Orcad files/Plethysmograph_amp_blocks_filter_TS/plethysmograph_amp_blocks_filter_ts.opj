@@ -18,11 +18,15 @@
          ".\plethysmograph_amp_blocks_filter_ts-PSpiceFiles\SCHEMATIC1\SCHEMATIC1.net")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles"
-      (ActiveProfile
-         ".\plethysmograph_amp_blocks_filter_ts-pspicefiles\schematic1\time.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\plethysmograph_amp_blocks_filter_ts-pspicefiles\schematic1\time.sim"
         (DisplayName "SCHEMATIC1-time")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\plethysmograph_amp_blocks_filter_ts-pspicefiles\schematic1\freq.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\plethysmograph_amp_blocks_filter_ts-pspicefiles\schematic1\freq.sim"
+        (DisplayName "SCHEMATIC1-freq")
         (Type "PSpice Profile")))
     (Folder "Model Libraries"
       (Sort User))
@@ -66,15 +70,7 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "C:\Users\N\Documents\GitHub\Plethysmograph\Orcad files\Plethysmograph_amp_blocks_filter_TS\plethysmograph_amp_blocks_filter_ts.DSN")
-      (Path "Design Resources"
-         "C:\Users\N\Documents\GitHub\Plethysmograph\Orcad files\Plethysmograph_amp_blocks_filter_TS\plethysmograph_amp_blocks_filter_ts.DSN"
-         "SCHEMATIC1")
-      (Path "Outputs")
-      (Select "Design Resources"
-         "C:\Users\N\Documents\GitHub\Plethysmograph\Orcad files\Plethysmograph_amp_blocks_filter_TS\plethysmograph_amp_blocks_filter_ts.DSN"
-         "SCHEMATIC1" "PAGE1"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -85,7 +81,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 52 1100 52 401")
-        (Scroll "437 480")
+        (Scroll "0 517")
         (Zoom "100")
         (Occurrence "/"))
       (Path
