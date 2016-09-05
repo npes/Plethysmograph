@@ -1,5 +1,5 @@
-
-**** 08/31/16 21:53:52 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+**** 09/05/16 06:11:59 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-time"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
 
@@ -41,7 +41,7 @@ ERROR(ORPSIM-15347): Cannot open input file C:\Users\N\Documents\GitHub\Plethysm
 
 
 ABORTING SIMULATION
-**** 08/31/16 21:53:52 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+**** 09/05/16 06:11:59 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-time"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
 
@@ -80,6 +80,6 @@ Runtime statistics:                       Seconds      Iterations
   AC and noise                      =        0.00               0
   Total transient analysis          =        0.00
   Output                            =        0.00
-  Overhead                          =         .06
-  Total job time                    =        0.00
+  Overhead                          =         .03
+  Total job time                    =         .80
 

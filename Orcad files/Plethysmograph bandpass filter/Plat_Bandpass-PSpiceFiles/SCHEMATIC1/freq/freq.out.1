@@ -1,7 +1,7 @@
-
-**** 08/30/16 08:22:15 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-freq"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
+**** 09/01/16 19:55:20 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-freq"  [ c:\users\thomas\desktop\mapper\it - teknologi\thered_semester\elektronik\plethysmograph\orcad files
 
 
  ****     CIRCUIT DESCRIPTION
@@ -24,9 +24,7 @@
 .lib "C:\Cadence\Company\OrCAD_PSpice\Models\sample_models.lib" 
 
 *Analysis directives: 
-.AC DEC 10000 0 1k
---------------$
-ERROR(ORPSIM-16103): Invalid value
+.AC DEC 10000 0.1 150
 .OPTIONS ADVCONV
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
 .INC "..\SCHEMATIC1.net" 
@@ -37,18 +35,72 @@ ERROR(ORPSIM-16103): Invalid value
 * source PLAT_BANDPASS
 V_V3         N25953 0  AC 1
 +SIN 0 1 2 0 0 0
-V_V2         V- 0 -15
-X_U1A         N27011 0 V+ V- N27228 LM324
-V_V1         V+ 0 15
+V_V2         V- 0 -9
+X_U1A         N27011 N27015 V+ V- N27015 LM324
+V_V1         V+ 0 9
 C_C1         N25953 N27011 C_C1 0.001  TC=0,0 
 .model        C_C1 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
 R_R1         0 N27011 R_R1 330 TC=0,0 
 .model        R_R1 RES R=1 DEV=5% TC1=0 TC2=0
-R_R2         N27228 N27232 R_R2 470 TC=0,0 
+R_R2         N27015 N27232 R_R2 470 TC=0,0 
 .model        R_R2 RES R=1 DEV=5% TC1=0 TC2=0
 C_C2         0 N27232 C_C2 100u  TC=0,0 
 .model        C_C2 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+R_R4         N28269 N28319 R_R4 910 TC=0,0 
+.model        R_R4 RES R=1 DEV=5% TC1=0 TC2=0
+V_V4         N27788 0  AC 1
++SIN 0 1 100 0 0 0
+R_R3         N30842 N32220 R_R3 6.37k TC=0,0 
+.model        R_R3 RES R=1 DEV=5% TC1=0 TC2=0
+C_C4         N28319 N28269 C_C4 50u  TC=0,0 
+.model        C_C4 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+X_U1B         N32725 N28269 V+ 0 N28319 LM324
+R_R5         N30842 N28269 R_R5 800 TC=0,0 
+.model        R_R5 RES R=1 DEV=5% TC1=0 TC2=0
+C_C5         0 N30842 C_C5 50n  TC=0,0 
+.model        C_C5 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+R_R8         N31746 N31672 R_R8 800 TC=0,0 
+.model        R_R8 RES R=1 DEV=5% TC1=0 TC2=0
+X_U2B         N32795 N31672 V+ V- N31676 LM324
+R_R6         N31746 N28319 R_R6 6.37k TC=0,0 
+.model        R_R6 RES R=1 DEV=5% TC1=0 TC2=0
+C_C7         0 N31746 C_C7 50n  TC=0,0 
+.model        C_C7 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+R_R7         N31672 N31676 R_R7 910 TC=0,0 
+.model        R_R7 RES R=1 DEV=5% TC1=0 TC2=0
+C_C6         N31676 N31672 C_C6 50u  TC=0,0 
+.model        C_C6 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+C_C8         N27788 N32230 C_C8 0.001  TC=0,0 
+.model        C_C8 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+X_U2C         N32230 N32220 V+ 0 N32220 LM324
+R_R9         0 N32230 R_R9 330 TC=0,0 
+.model        R_R9 RES R=1 DEV=5% TC1=0 TC2=0
+V_V5         +5 0 5
+R_R10         N32725 +5 R_R10 1k TC=0,0 
+.model        R_R10 RES R=1 DEV=5% TC1=0 TC2=0
+R_R11         N32795 +5 R_R11 1k TC=0,0 
+.model        R_R11 RES R=1 DEV=5% TC1=0 TC2=0
+X_U2D         N33921 N33939 +6 0 OUTPUT LM324
+R_R12         N33917 N33921 R_R12 10k TC=0,0 
+.model        R_R12 RES R=1 DEV=5% TC1=0 TC2=0
+R_R13         N34679 N33917 R_R13 10k TC=0,0 
+.model        R_R13 RES R=1 DEV=5% TC1=0 TC2=0
+C_C9         N33917 OUTPUT C_C9 2n  TC=0,0 
+.model        C_C9 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+C_C10         0 N33921 C_C10 2n  TC=0,0 
+.model        C_C10 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+V_V7         V- 0 -9
+V_V8         +5 0 5
+V_V6         V+ 0 9
+R_R14         N33939 OUTPUT R_R14 10k TC=0,0 
+.model        R_R14 RES R=1 DEV=5% TC1=0 TC2=0
+R_R15         0 N33939 R_R15 10k TC=0,0 
+.model        R_R15 RES R=1 DEV=5% TC1=0 TC2=0
+V_V9         N34679 0  AC 1
++SIN 0 1 2 0 0 0
 
 **** RESUMING freq.cir ****
 .END
+
+ERROR(ORPSIM-15143): Voltage source and/or inductor loop involving V_V7. You may break the loop by adding a series resistance
 

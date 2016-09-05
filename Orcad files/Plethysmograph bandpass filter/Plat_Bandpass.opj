@@ -30,18 +30,19 @@
     (0
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (C
-      (FullPartName "C.Normal")
-      (LibraryName "C:\CADENCE\COMPANY\CAPTURE_LIB\START.OLB")
-      (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
+      (LibraryName "C:\CADENCE\COMPANY\CAPTURE_LIB\START.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
       (LibraryName "C:\CADENCE\COMPANY\CAPTURE_LIB\START.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -51,8 +52,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 104 1132 104 356")
-        (Scroll "96 504")
+        (Placement "44 0 1 -1 -1 -8 -31 104 1132 104 356")
+        (Scroll "157 367")
         (Zoom "100")
         (Occurrence "/"))
       (Path
