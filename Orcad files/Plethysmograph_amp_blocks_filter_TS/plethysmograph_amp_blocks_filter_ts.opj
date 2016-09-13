@@ -70,7 +70,15 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Outputs"))
+      (Path "Design Resources"
+         "C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files\Plethysmograph_amp_blocks_filter_TS\plethysmograph_amp_blocks_filter_ts.DSN")
+      (Path "Design Resources"
+         "C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files\Plethysmograph_amp_blocks_filter_TS\plethysmograph_amp_blocks_filter_ts.DSN"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files\Plethysmograph_amp_blocks_filter_TS\plethysmograph_amp_blocks_filter_ts.DSN"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -80,12 +88,21 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
+<<<<<<< HEAD
+        (Placement "44 2 3 -1 -1 -8 -31 0 894 0 252")
+        (Scroll "129 204")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\THOMAS\DESKTOP\MAPPER\IT - TEKNOLOGI\THERED_SEMESTER\ELEKTRONIK\PLETHYSMOGRAPH\ORCAD FILES\PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TS\PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TS.DSN")
+=======
         (Placement "44 2 3 -1 -1 -8 -31 52 1100 52 401")
         (Scroll "0 517")
         (Zoom "100")
         (Occurrence "/"))
       (Path
          "C:\USERS\N\DOCUMENTS\GITHUB\PLETHYSMOGRAPH\ORCAD FILES\PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TS\PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TS.DSN")
+>>>>>>> 815ca35b91e0bc5400a75c95da55e47169c66e15
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
-  (MPSSessionName "N"))
+  (MPSSessionName "Thomas"))

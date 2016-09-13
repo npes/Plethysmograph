@@ -30,17 +30,21 @@
     (0
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (C
-      (FullPartName "C.Normal")
-      (LibraryName "C:\CADENCE\COMPANY\CAPTURE_LIB\START.OLB")
-      (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
+      (LibraryName "C:\CADENCE\COMPANY\CAPTURE_LIB\START.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
       (LibraryName "C:\CADENCE\COMPANY\CAPTURE_LIB\START.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
+<<<<<<< HEAD
+      (Path "Outputs")
+      (Select "Design Resources"))
+=======
       (Path "Design Resources"
          "C:\Users\N\Documents\GitHub\Plethysmograph\Orcad files\Plethysmograph bandpass filter\plat_bandpass.dsn")
       (Path "Design Resources"
@@ -50,6 +54,7 @@
       (Select "Design Resources"
          "C:\Users\N\Documents\GitHub\Plethysmograph\Orcad files\Plethysmograph bandpass filter\plat_bandpass.dsn"
          "SCHEMATIC1" "PAGE1"))
+>>>>>>> 815ca35b91e0bc5400a75c95da55e47169c66e15
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -60,12 +65,17 @@
       (Type "COrSchematicDoc")
       (Frame
 <<<<<<< HEAD
+        (Placement "44 0 1 -1 -1 -8 -31 104 1132 104 356")
+        (Scroll "157 367")
+=======
+<<<<<<< HEAD
         (Placement "44 0 1 -1 -1 -8 -31 130 880 130 475")
         (Scroll "232 517")
 =======
         (Placement "44 2 3 -1 -1 -8 -31 104 1132 104 356")
         (Scroll "96 504")
 >>>>>>> 9860bce4698974ae78fe2df219225feae00d8be0
+>>>>>>> 815ca35b91e0bc5400a75c95da55e47169c66e15
         (Zoom "100")
         (Occurrence "/"))
       (Path

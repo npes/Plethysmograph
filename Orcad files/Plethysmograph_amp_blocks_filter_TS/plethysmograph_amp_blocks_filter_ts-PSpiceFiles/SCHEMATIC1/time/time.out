@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+
+**** 09/05/16 06:11:59 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+=======
+>>>>>>> 815ca35b91e0bc5400a75c95da55e47169c66e15
 
 **** 09/01/16 10:41:47 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
@@ -110,6 +115,11 @@ R_R7         N38535 N38531 R_R7 910 TC=0,0
 
  ** Profile: "SCHEMATIC1-time"  [ c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph_amp_blocks_filter_ts\plethysm
 
+<<<<<<< HEAD
+ABORTING SIMULATION
+**** 09/05/16 06:11:59 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+=======
+>>>>>>> 815ca35b91e0bc5400a75c95da55e47169c66e15
 
  ****     Diode MODEL PARAMETERS
 
@@ -522,5 +532,20 @@ R_R7         N38535 N38531 R_R7 910 TC=0,0
 
 
 
+<<<<<<< HEAD
+Runtime statistics:                       Seconds      Iterations
+  Readin                            =        0.00
+  General setup                     =        0.00
+  CMI setup                     =        0.00
+  Setup                             =        0.00
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =         .03
+  Total job time                    =         .80
+=======
   Total job time (using Solver 1)   =         .95
+>>>>>>> 815ca35b91e0bc5400a75c95da55e47169c66e15
 
