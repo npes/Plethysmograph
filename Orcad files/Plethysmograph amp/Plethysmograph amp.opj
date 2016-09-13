@@ -27,6 +27,16 @@
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    (VPWL_GENERIC
+      (FullPartName "VPWL_GENERIC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\TCLSCRIPTS\CAPPSPICESOURCEAPP\HYBRID\SUPPORTFILES\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VPWL
+      (FullPartName "VPWL.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
     (TL072/301/TI
       (FullPartName "TL072/301/TI.Normal")
       (LibraryName
@@ -55,11 +65,47 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Outputs"))
+      (Path "Design Resources"
+         "c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph amp\plethysmograph amp.dsn")
+      (Path "Design Resources"
+         "c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph amp\plethysmograph amp.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph amp\plethysmograph amp.dsn"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 0 200 0 310"))
-      (Tab 0)))
-  (MPSSessionName "Thomas"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1152 104 453")
+        (Scroll "0 210")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\N\DOCUMENTS\GITHUB\PLETHYSMOGRAPH\ORCAD FILES\PLETHYSMOGRAPH AMP\PLETHYSMOGRAPH AMP.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))) >>>>>>> 9860bce4698974ae78fe2df219225feae00d8be0
+  (HierarchyView)
+  (Doc
+    (Type "COrCapturePMDoc")
+    (Frame <<<<<<< HEAD
+      (Placement "44 2 3 -1 -1 -8 -31 0 200 0 310"))
+    (Tab 0))
+  (Doc
+    (Type "COrSchematicDoc")
+    (Frame
+      (Placement "44 0 1 -1 -1 -8 -31 52 1096 52 397")
+      (Scroll "0 318")
+      (Zoom "94")
+      (Occurrence "/"))
+    (Path
+       "C:\USERS\N\DOCUMENTS\GITHUB\PLETHYSMOGRAPH\ORCAD FILES\PLETHYSMOGRAPH AMP\PLETHYSMOGRAPH AMP.DSN")
+    (Schematic "SCHEMATIC1")
+    (Page "PAGE1"))
+  (MPSSessionName "N"))

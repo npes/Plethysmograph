@@ -18,11 +18,15 @@
          ".\plethysmograph_amp_blocks_filter_ts-PSpiceFiles\SCHEMATIC1\SCHEMATIC1.net")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles"
-      (ActiveProfile
-         ".\plethysmograph_amp_blocks_filter_ts-pspicefiles\schematic1\time.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\plethysmograph_amp_blocks_filter_ts-pspicefiles\schematic1\time.sim"
         (DisplayName "SCHEMATIC1-time")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\plethysmograph_amp_blocks_filter_ts-pspicefiles\schematic1\freq.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\plethysmograph_amp_blocks_filter_ts-pspicefiles\schematic1\freq.sim"
+        (DisplayName "SCHEMATIC1-freq")
         (Type "PSpice Profile")))
     (Folder "Model Libraries"
       (Sort User))
@@ -32,6 +36,10 @@
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    (GAIN
+      (FullPartName "GAIN.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
       (LibraryName
@@ -45,10 +53,6 @@
     (0
       (LibraryName
          "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
-      (DeviceIndex "0"))
-    (GAIN
-      (FullPartName "GAIN.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
       (DeviceIndex "0"))
     (LOPASS
       (FullPartName "LOPASS.Normal")
@@ -84,12 +88,21 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
+<<<<<<< HEAD
         (Placement "44 2 3 -1 -1 -8 -31 0 894 0 252")
         (Scroll "129 204")
         (Zoom "100")
         (Occurrence "/"))
       (Path
          "C:\USERS\THOMAS\DESKTOP\MAPPER\IT - TEKNOLOGI\THERED_SEMESTER\ELEKTRONIK\PLETHYSMOGRAPH\ORCAD FILES\PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TS\PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TS.DSN")
+=======
+        (Placement "44 2 3 -1 -1 -8 -31 52 1100 52 401")
+        (Scroll "0 517")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\N\DOCUMENTS\GITHUB\PLETHYSMOGRAPH\ORCAD FILES\PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TS\PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TS.DSN")
+>>>>>>> 815ca35b91e0bc5400a75c95da55e47169c66e15
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
   (MPSSessionName "Thomas"))
