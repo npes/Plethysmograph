@@ -42,6 +42,7 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
+<<<<<<< HEAD
          "c:\users\thomas\desktop\mapper\it - teknologi\thered_semester\elektronik\plethysmograph\orcad files\plethysmograph bandpass filter\plat_bandpass.dsn")
       (Path "Design Resources"
          "c:\users\thomas\desktop\mapper\it - teknologi\thered_semester\elektronik\plethysmograph\orcad files\plethysmograph bandpass filter\plat_bandpass.dsn"
@@ -49,19 +50,38 @@
       (Path "Outputs")
       (Select "Design Resources"
          "c:\users\thomas\desktop\mapper\it - teknologi\thered_semester\elektronik\plethysmograph\orcad files\plethysmograph bandpass filter\plat_bandpass.dsn"
+=======
+         "c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph bandpass filter\plat_bandpass.dsn")
+      (Path "Design Resources"
+         "c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph bandpass filter\plat_bandpass.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph bandpass filter\plat_bandpass.dsn"
+>>>>>>> e5720bd82cf4f2b94f90e84f9c2f5f7c68406bdd
          "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
+<<<<<<< HEAD
         (Placement "44 2 3 -1 -1 -8 -31 0 200 0 223"))
+=======
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 200"))
+>>>>>>> e5720bd82cf4f2b94f90e84f9c2f5f7c68406bdd
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
+<<<<<<< HEAD
         (Placement "44 0 1 -1 -1 -8 -31 104 1264 104 366")
         (Scroll "0 448")
         (Zoom "100")
+=======
+        (Placement "44 2 3 -1 -1 -8 -31 52 1100 52 401")
+        (Scroll "56 58")
+        (Zoom "94")
+>>>>>>> e5720bd82cf4f2b94f90e84f9c2f5f7c68406bdd
         (Occurrence "/"))
       (Path
          "C:\USERS\THOMAS\DESKTOP\MAPPER\IT - TEKNOLOGI\THERED_SEMESTER\ELEKTRONIK\PLETHYSMOGRAPH\ORCAD FILES\PLETHYSMOGRAPH BANDPASS FILTER\PLAT_BANDPASS.DSN")
@@ -89,4 +109,8 @@
        "C:\USERS\N\DOCUMENTS\GITHUB\PLETHYSMOGRAPH\ORCAD FILES\PLETHYSMOGRAPH BANDPASS FILTER\PLAT_BANDPASS.DSN")
     (Schematic "SCHEMATIC1")
     (Page "PAGE1"))
+<<<<<<< HEAD
   (MPSSessionName "Thomas"))
+=======
+  (MPSSessionName "N"))
+>>>>>>> e5720bd82cf4f2b94f90e84f9c2f5f7c68406bdd
