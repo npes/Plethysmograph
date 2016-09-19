@@ -82,7 +82,15 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Outputs"))
+      (Path "Design Resources"
+         "C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files\Plethysmograph_tl074\plethysmograph_amp_blocks_filter_tl074.DSN")
+      (Path "Design Resources"
+         "C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files\Plethysmograph_tl074\plethysmograph_amp_blocks_filter_tl074.DSN"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files\Plethysmograph_tl074\plethysmograph_amp_blocks_filter_tl074.DSN"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
