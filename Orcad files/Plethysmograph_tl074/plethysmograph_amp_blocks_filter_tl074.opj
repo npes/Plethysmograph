@@ -36,16 +36,23 @@
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    (0
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\CADENCE\COMPANY\CAPTURE_LIB\START.OLB")
+      (DeviceIndex "0"))
     (TL074/301/TI
       (FullPartName "TL074/301/TI.Normal")
       (LibraryName
          "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\TEX_INST.OLB")
       (DeviceIndex "3"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
     (LM324
       (FullPartName "LM324.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\OPAMP.OLB")
@@ -58,10 +65,6 @@
       (FullPartName "Dbreak.Normal")
       (LibraryName
          "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
-      (DeviceIndex "0"))
-    (0
-      (LibraryName
-         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
       (DeviceIndex "0"))
     (LOPASS
       (FullPartName "LOPASS.Normal")
@@ -79,11 +82,6 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph_tl074\plethysmograph_amp_blocks_filter_tl074.DSN")
-      (Path "Design Resources"
-         "c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph_tl074\plethysmograph_amp_blocks_filter_tl074.DSN"
-         "SCHEMATIC1")
       (Path "Outputs"))
     (HierarchyView)
     (Doc
@@ -94,12 +92,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1100 52 401")
-        (Scroll "0 111")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1234 52 300")
+        (Scroll "0 154")
         (Zoom "100")
         (Occurrence "/"))
       (Path
-         "C:\USERS\N\DOCUMENTS\GITHUB\PLETHYSMOGRAPH\ORCAD FILES\PLETHYSMOGRAPH_TL074\PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TL074.DSN")
+         "C:\USERS\THOMAS\DESKTOP\MAPPER\IT - TEKNOLOGI\THERED_SEMESTER\ELEKTRONIK\PLETHYSMOGRAPH\ORCAD FILES\PLETHYSMOGRAPH_TL074\PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TL074.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
-  (MPSSessionName "N"))
+  (MPSSessionName "Thomas"))

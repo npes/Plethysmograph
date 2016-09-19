@@ -91,12 +91,21 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
+<<<<<<< HEAD
+        (Placement "44 2 3 -1 -1 -8 -31 52 1238 52 304")
+        (Scroll "157 160")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\THOMAS\DESKTOP\MAPPER\IT - TEKNOLOGI\THERED_SEMESTER\ELEKTRONIK\PLETHYSMOGRAPH\ORCAD FILES\PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TS\PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TS.DSN")
+=======
         (Placement "44 0 1 -1 -1 -8 -31 52 1100 52 401")
         (Scroll "0 111")
         (Zoom "100")
         (Occurrence "/"))
       (Path
          "C:\USERS\N\DOCUMENTS\GITHUB\PLETHYSMOGRAPH\ORCAD FILES\PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TS\PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TS.DSN")
+>>>>>>> e5720bd82cf4f2b94f90e84f9c2f5f7c68406bdd
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
   (MPSSessionName "N"))
