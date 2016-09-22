@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ** Profile: "SCHEMATIC1-time"  [ c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph_tl074\plethysmograph_amp_blocks_filter_tl074-pspicefiles\schematic1\time.sim ] 
+=======
+** Profile: "SCHEMATIC1-time"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files\Plethysmograph_tl074\plethysmograph_amp_blocks_filter_tl074-pspicefiles\schematic1\time.sim ] 
+>>>>>>> 74014309ea2274e39f809af04ddfb130d6694ab0
 
 ** Creating circuit file "time.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS

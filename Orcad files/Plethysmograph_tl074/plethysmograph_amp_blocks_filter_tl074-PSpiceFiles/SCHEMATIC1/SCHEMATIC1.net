@@ -1,7 +1,8 @@
 * source PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TL074
 V_V1         N06746 0   PWL   
 + REPEAT FOREVER  
-+ FILE "C:\Users\N\Documents\GitHub\Plethysmograph\TEK0003formatted_crop.csv" 
++ FILE
++  "C:\Users\Thomas\Documents\GitHub\plethysmograph\TEK0003formatted_crop.csv" 
 + ENDREPEAT
 R_R4         OUT 5V  1k TC=0,0 
 R_R16         N06610 N07596  10k TC=0,0 

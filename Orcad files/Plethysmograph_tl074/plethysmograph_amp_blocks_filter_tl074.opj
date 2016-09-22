@@ -36,6 +36,11 @@
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    (TL072/301/TI
+      (FullPartName "TL072/301/TI.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\TEX_INST.OLB")
+      (DeviceIndex "1"))
     (0
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -82,6 +87,7 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+<<<<<<< HEAD
       (Path "Design Resources"
          "c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph_tl074\plethysmograph_amp_blocks_filter_tl074.DSN")
       (Path "Design Resources"
@@ -91,6 +97,10 @@
       (Select "Design Resources"
          "c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph_tl074\plethysmograph_amp_blocks_filter_tl074.DSN"
          "SCHEMATIC1" "PAGE1"))
+=======
+      (Path "Outputs")
+      (Select "Design Resources"))
+>>>>>>> 74014309ea2274e39f809af04ddfb130d6694ab0
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -100,9 +110,15 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
+<<<<<<< HEAD
         (Placement "44 2 3 -1 -1 -8 -31 52 1096 52 397")
         (Scroll "-253 -3")
         (Zoom "47")
+=======
+        (Placement "44 2 3 -1 -1 -8 -31 52 1234 52 300")
+        (Scroll "0 116")
+        (Zoom "100")
+>>>>>>> 74014309ea2274e39f809af04ddfb130d6694ab0
         (Occurrence "/"))
       (Path
          "C:\USERS\N\DOCUMENTS\GITHUB\PLETHYSMOGRAPH\ORCAD FILES\PLETHYSMOGRAPH_TL074\PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TL074.DSN")

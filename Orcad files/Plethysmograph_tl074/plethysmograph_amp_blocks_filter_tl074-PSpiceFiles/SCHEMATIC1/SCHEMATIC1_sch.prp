@@ -455,7 +455,11 @@
             ("level"	"0")
             ("model_params"
                 ("FILE"
+<<<<<<< HEAD
                     ("value"	"C:\\Users\\N\\Documents\\GitHub\\Plethysmograph\\TEK0003formatted_crop.csv")
+=======
+                    ("value"	"C:\\Users\\Thomas\\Documents\\GitHub\\plethysmograph\\TEK0003formatted_crop.csv")
+>>>>>>> 74014309ea2274e39f809af04ddfb130d6694ab0
                     ("pspice_param"	"FILE")
                 )
                 ("AppProp"
@@ -851,6 +855,16 @@
                 ("TC2"
                     ("value"	"0")
                     ("pspice_param"	"TC2")
+<<<<<<< HEAD
+                )
+                ("TC1"
+                    ("value"	"0")
+                    ("pspice_param"	"TC1")
+                )
+                ("POWER"
+                    ("value"	"RMAX")
+                    ("pspice_param"	"POWER")
+=======
                 )
                 ("TC1"
                     ("value"	"0")
@@ -932,11 +946,29 @@
                 ("SLOPE"
                     ("value"	"CSMAX")
                     ("pspice_param"	"SLOPE")
+>>>>>>> 74014309ea2274e39f809af04ddfb130d6694ab0
                 )
                 ("MAX_TEMP"
                     ("value"	"CTMAX")
                     ("pspice_param"	"MAX_TEMP")
                 )
+<<<<<<< HEAD
+                ("SLOPE"
+                    ("value"	"RSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("VOLTAGE"
+                    ("value"	"RVMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
+=======
                 ("VC1"
                     ("value"	"0")
                     ("pspice_param"	"VC1")
@@ -944,6 +976,7 @@
                 ("VC2"
                     ("value"	"0")
                     ("pspice_param"	"VC2")
+>>>>>>> 74014309ea2274e39f809af04ddfb130d6694ab0
                 )
             )
             ("smoke_vars"
@@ -964,10 +997,13 @@
                     ("pspice_param"	"VALUE")
                     ("distrib"	"FLAT")
                 )
+<<<<<<< HEAD
+=======
                 ("BiasValue Power"
                     ("value"	"24.97pW")
                     ("pspice_param"	"BiasValue Power")
                 )
+>>>>>>> 74014309ea2274e39f809af04ddfb130d6694ab0
                 ("TC2"
                     ("value"	"0")
                     ("pspice_param"	"TC2")
@@ -975,6 +1011,28 @@
                 ("TC1"
                     ("value"	"0")
                     ("pspice_param"	"TC1")
+<<<<<<< HEAD
+                )
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+                ("IC"
+                    ("value"	"")
+                    ("pspice_param"	"IC")
+                )
+                ("VOLTAGE"
+                    ("value"	"CMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("CURRENT"
+                    ("value"	"CIMAX")
+                    ("pspice_param"	"CURRENT")
+=======
                 )
                 ("POWER"
                     ("value"	"RMAX")
@@ -991,6 +1049,102 @@
                 ("VOLTAGE"
                     ("value"	"RVMAX")
                     ("pspice_param"	"VOLTAGE")
+>>>>>>> 74014309ea2274e39f809af04ddfb130d6694ab0
+                )
+                ("KNEE"
+                    ("value"	"CBMAX")
+                    ("pspice_param"	"KNEE")
+                )
+                ("SLOPE"
+                    ("value"	"CSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+<<<<<<< HEAD
+                ("MAX_TEMP"
+                    ("value"	"CTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+                ("VC1"
+                    ("value"	"0")
+                    ("pspice_param"	"VC1")
+                )
+                ("VC2"
+                    ("value"	"0")
+                    ("pspice_param"	"VC2")
+                )
+=======
+>>>>>>> 74014309ea2274e39f809af04ddfb130d6694ab0
+            )
+            ("smoke_vars"
+                ("POWER"	"0.25")
+                ("SLOPE"	"0.005")
+                ("MAX_TEMP"	"200.0")
+            )
+        )
+        ("C7"
+            ("device_name"	"C")
+            ("pspice_path"	"C_C7")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"2.2uF")
+                    ("pspice_param"	"VALUE")
+                    ("distrib"	"FLAT")
+                )
+                ("TC2"
+                    ("value"	"0")
+                    ("pspice_param"	"TC2")
+                )
+                ("TC1"
+                    ("value"	"0")
+                    ("pspice_param"	"TC1")
+                )
+                ("TC2"
+                    ("value"	"0")
+                    ("pspice_param"	"TC2")
+                )
+<<<<<<< HEAD
+                ("TC1"
+                    ("value"	"0")
+                    ("pspice_param"	"TC1")
+                )
+                ("POWER"
+                    ("value"	"RMAX")
+                    ("pspice_param"	"POWER")
+=======
+                ("IC"
+                    ("value"	"")
+                    ("pspice_param"	"IC")
+                )
+                ("VOLTAGE"
+                    ("value"	"CMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("CURRENT"
+                    ("value"	"CIMAX")
+                    ("pspice_param"	"CURRENT")
+                )
+                ("KNEE"
+                    ("value"	"CBMAX")
+                    ("pspice_param"	"KNEE")
+                )
+                ("SLOPE"
+                    ("value"	"CSMAX")
+                    ("pspice_param"	"SLOPE")
+>>>>>>> 74014309ea2274e39f809af04ddfb130d6694ab0
+                )
+                ("MAX_TEMP"
+                    ("value"	"CTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+<<<<<<< HEAD
+                ("SLOPE"
+                    ("value"	"RSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("VOLTAGE"
+                    ("value"	"RVMAX")
+                    ("pspice_param"	"VOLTAGE")
                 )
                 ("TOLERANCE"
                     ("value"	"")
@@ -999,12 +1153,23 @@
                 ("DIST"
                     ("value"	"FLAT")
                     ("pspice_param"	"DIST")
+=======
+                ("VC1"
+                    ("value"	"0")
+                    ("pspice_param"	"VC1")
+                )
+                ("VC2"
+                    ("value"	"0")
+                    ("pspice_param"	"VC2")
+>>>>>>> 74014309ea2274e39f809af04ddfb130d6694ab0
                 )
             )
             ("smoke_vars"
-                ("POWER"	"0.25")
+                ("VOLTAGE"	"50.0")
+                ("CURRENT"	"1.0")
                 ("SLOPE"	"0.005")
-                ("MAX_TEMP"	"200.0")
+                ("KNEE"	"125.0")
+                ("MAX_TEMP"	"125.0")
             )
         )
         ("C1"
@@ -1013,7 +1178,11 @@
             ("level"	"0")
             ("model_params"
                 ("VALUE"
+<<<<<<< HEAD
                     ("value"	"10uF")
+=======
+                    ("value"	"0.001")
+>>>>>>> 74014309ea2274e39f809af04ddfb130d6694ab0
                     ("pspice_param"	"VALUE")
                     ("postol"	"5%")
                     ("distrib"	"FLAT")
@@ -1081,7 +1250,11 @@
             ("level"	"0")
             ("model_params"
                 ("VALUE"
+<<<<<<< HEAD
                     ("value"	"120k")
+=======
+                    ("value"	"2.2M")
+>>>>>>> 74014309ea2274e39f809af04ddfb130d6694ab0
                     ("pspice_param"	"VALUE")
                     ("postol"	"5%")
                     ("distrib"	"FLAT")
@@ -1095,7 +1268,11 @@
                     ("pspice_param"	"TC2")
                 )
                 ("BiasValue Power"
+<<<<<<< HEAD
                     ("value"	"2.637e-24W")
+=======
+                    ("value"	"7.350e-18W")
+>>>>>>> 74014309ea2274e39f809af04ddfb130d6694ab0
                     ("pspice_param"	"BiasValue Power")
                 )
                 ("DIST"
@@ -1263,11 +1440,19 @@
                     ("distrib"	"FLAT")
                 )
                 ("VC2"
+<<<<<<< HEAD
                     ("value"	"0")
                     ("pspice_param"	"VC2")
                 )
                 ("VC1"
                     ("value"	"0")
+=======
+                    ("value"	"0")
+                    ("pspice_param"	"VC2")
+                )
+                ("VC1"
+                    ("value"	"0")
+>>>>>>> 74014309ea2274e39f809af04ddfb130d6694ab0
                     ("pspice_param"	"VC1")
                 )
                 ("MAX_TEMP"
@@ -1531,10 +1716,13 @@
                     ("value"	"0")
                     ("pspice_param"	"TC2")
                 )
+<<<<<<< HEAD
                 ("BiasValue Power"
                     ("value"	"1.735fW")
                     ("pspice_param"	"BiasValue Power")
                 )
+=======
+>>>>>>> 74014309ea2274e39f809af04ddfb130d6694ab0
                 ("DIST"
                     ("value"	"FLAT")
                     ("pspice_param"	"DIST")
@@ -1585,10 +1773,13 @@
                     ("value"	"0")
                     ("pspice_param"	"TC2")
                 )
+<<<<<<< HEAD
                 ("BiasValue Power"
                     ("value"	"4.128fW")
                     ("pspice_param"	"BiasValue Power")
                 )
+=======
+>>>>>>> 74014309ea2274e39f809af04ddfb130d6694ab0
                 ("DIST"
                     ("value"	"FLAT")
                     ("pspice_param"	"DIST")

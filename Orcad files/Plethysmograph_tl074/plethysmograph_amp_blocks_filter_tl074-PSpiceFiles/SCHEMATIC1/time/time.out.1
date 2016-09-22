@@ -1,7 +1,13 @@
 
+<<<<<<< HEAD
 **** 09/22/16 11:01:11 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-time"  [ c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph_tl074\plethysmograph_amp_bloc
+=======
+**** 09/22/16 11:03:00 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-time"  [ C:\Users\Thomas\Desktop\Mapper\it - teknologi\thered_semester\elektronik\Plethysmograph\Orcad files
+>>>>>>> 74014309ea2274e39f809af04ddfb130d6694ab0
 
 
  ****     CIRCUIT DESCRIPTION
@@ -35,8 +41,19 @@
 * source PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TL074
 V_V1         N06746 0   PWL   
 + REPEAT FOREVER  
+<<<<<<< HEAD
 + FILE "C:\Users\N\Documents\GitHub\Plethysmograph\TEK0003formatted_crop.csv" 
 + ENDREPEAT
+=======
++ FILE "C:\Users\Thomas\Desktop\Mapper\it -
+-------$
+ERROR(ORPSIM-16377): Quoted strings must fit on one line
++  teknologi\thered_semester\elektronik\Plethysmograph\TEK0003formatted_crop.csv"
++  
++ ENDREPEAT
+-----------$
+ERROR(ORPSIM-16347): Missing file name
+>>>>>>> 74014309ea2274e39f809af04ddfb130d6694ab0
 R_R4         OUT 5V  1k TC=0,0 
 R_R16         N06610 N09169  10k TC=0,0 
 C_C6         5V N06610  10uF  TC=0,0 
@@ -66,6 +83,10 @@ R_R36         5V N47818  1k TC=0,0
 X_U4A         N43229 N43219 VCC 0 N43219 TL074/301/TI
 X_U4B         N43443 N43397 VCC 0 N43409 TL074/301/TI
 X_U4C         N43409 N47818 VCC 0 N07596 TL074/301/TI
+<<<<<<< HEAD
+=======
+X_U4D         5V N49884 VCC 0 N49884 TL074/301/TI
+>>>>>>> 74014309ea2274e39f809af04ddfb130d6694ab0
 R_R38         N43397 N51562 R_R38 4.7k TC=0,0 
 .model        R_R38 RES R=1 DEV=5% TC1=0 TC2=0
 R_R39         5V N43397 R_R39 10k TC=0,0 
@@ -74,6 +95,7 @@ X_R40         N51562 N43409 N43409 POT PARAMS: SET=0.5 VALUE=2K
 
 **** RESUMING time.cir ****
 .END
+<<<<<<< HEAD
 
 **** 09/22/16 11:01:11 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
@@ -269,4 +291,6 @@ Runtime statistics:                       Seconds      Iterations
   Output                            =        0.00
   Overhead                          =         .08
   Total job time (using Solver 1)   =     9996.88
+=======
+>>>>>>> 74014309ea2274e39f809af04ddfb130d6694ab0
 
