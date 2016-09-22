@@ -455,7 +455,7 @@
             ("level"	"0")
             ("model_params"
                 ("FILE"
-                    ("value"	"C:\\Users\\N\\Documents\\GitHub\\Plethysmograph\\TEK0003formatted_crop.csv")
+                    ("value"	"C:\\Users\\Thomas\\Documents\\GitHub\\plethysmograph\\TEK0003formatted_crop.csv")
                     ("pspice_param"	"FILE")
                 )
                 ("AppProp"
