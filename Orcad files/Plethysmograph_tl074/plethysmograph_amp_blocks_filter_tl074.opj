@@ -82,7 +82,15 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Outputs"))
+      (Path "Design Resources"
+         "c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph_tl074\plethysmograph_amp_blocks_filter_tl074.DSN")
+      (Path "Design Resources"
+         "c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph_tl074\plethysmograph_amp_blocks_filter_tl074.DSN"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "c:\users\n\documents\github\plethysmograph\orcad files\plethysmograph_tl074\plethysmograph_amp_blocks_filter_tl074.DSN"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -92,12 +100,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1234 52 300")
-        (Scroll "0 154")
-        (Zoom "100")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1096 52 397")
+        (Scroll "-253 -3")
+        (Zoom "47")
         (Occurrence "/"))
       (Path
-         "C:\USERS\THOMAS\DESKTOP\MAPPER\IT - TEKNOLOGI\THERED_SEMESTER\ELEKTRONIK\PLETHYSMOGRAPH\ORCAD FILES\PLETHYSMOGRAPH_TL074\PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TL074.DSN")
+         "C:\USERS\N\DOCUMENTS\GITHUB\PLETHYSMOGRAPH\ORCAD FILES\PLETHYSMOGRAPH_TL074\PLETHYSMOGRAPH_AMP_BLOCKS_FILTER_TL074.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
-  (MPSSessionName "Thomas"))
+  (MPSSessionName "N"))
